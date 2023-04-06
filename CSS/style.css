@@ -1,6 +1,36 @@
 body {
     box-sizing: border-box;
     font-family: 'Hanken Grotesk', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 375px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+p {
+    font-size: 18px;
+}
+
+.result , .summary {
+    width: 200px;
+}
+
+.summary>div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .attribution { 
