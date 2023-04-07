@@ -28,6 +28,7 @@ body {
     width: 12.5em;
     height: 18.75em;
     margin: 0;
+    border-radius: 1em;
 }
 
 .result {
@@ -52,6 +53,7 @@ p {
 
 .summary>h4 {
     text-align: left;
+    margin-left: .5em;
 }
 
 .summary>div {
@@ -97,6 +99,10 @@ p {
 
 .visual {
     color: hsl(234, 85%, 45%);
+}
+
+.icon {
+    font-size: 1em;
 }
 
 .attribution { 
