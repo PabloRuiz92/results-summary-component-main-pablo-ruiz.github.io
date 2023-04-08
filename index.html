@@ -14,44 +14,48 @@
 <body>
 
   <section class="flex-container">
-    <div class="result">
+    <div class="resultContainer">
       <h4>Your Result</h4>
       <div class="circle">
-        <h1>76</h1>
+        <h1 id="resultNum">76</h1>
         <h6>of 100</h6>
       </div>
-      <h2>Great</h2>
-      <p>
+      <h2 id="resultWord">Great</h2>
+      <p id="resultComment">
         You scored higher than 65% of the people who have taken these tests.
       </p>
     </div>
-    <div class="summary">
+    <div class="summaryContainer">
       <h4>Summary</h4>
       <div class="reactionContainer">
-        <h5 class="reaction"><span class="material-symbols-outlined icon">
-          bolt
-          </span> Reaction</h5>
-        <h5>80 / 100</h5>
+        <div class="iconTextContainer reaction">
+          <span class="material-symbols-outlined icon">bolt</span>
+          <h5>Reaction</h5>
+        </div>
+        <h5 class="greyText"><span id="resultReaction">80</span> / 100</h5>
       </div>
       <div class="memoryContainer">
-        <h5 class="memory"><span class="material-symbols-outlined icon">
-          neurology
-          </span> Memory</h5>
-        <h5>92 / 100</h5>
+        <div class="iconTextContainer memory">
+          <span class="material-symbols-outlined icon">neurology</span>
+          <h5>Memory</h5>
+        </div>
+        <h5 class="greyText"><span id="resultMemory">92</span> / 100</h5>
       </div>
       <div class="verbalContainer">
-        <h5 class="verbal"><span class="material-symbols-outlined icon">
-          sms
-          </span> Verbal</h5>
-        <h5>61 / 100</h5>
+        <div class="iconTextContainer verbal">
+          <span class="material-symbols-outlined icon">sms</span>
+          <h5>Verbal</h5>
+        </div>
+        <h5 class="greyText"><span id="resultVerbal">61</span> / 100</h5>
       </div>
       <div class="visualContainer">
-        <h5 class="visual"><span class="material-symbols-outlined icon">
-          visibility
-          </span> Visual</h5>
-        <h5>72 / 100</h5>
+        <div class="iconTextContainer visual">
+          <span class="material-symbols-outlined icon">visibility</span>
+          <h5>Visual</h5>
+        </div>
+        <h5 class="greyText"><span id="resultVisual">72</span> / 100</h5>
       </div>
-      <button>Continue</button>
+      <button class="buttonContinue">Continue</button>
     </div>
   </section>
 
