@@ -15,15 +15,6 @@ body {
     box-shadow: 10px 8px 10px 5px #ECF0FB;
 }
 
-@media (max-width: 375px) {
-    .flex-container {
-        flex-direction: column;
-        border-radius: 0;
-        box-shadow: none;
-        width: 100%;
-    }
-}
-
 .resultContainer {
     width: 12.5em;
     height: 18.75em;
@@ -169,4 +160,28 @@ h5 {
 
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+/*---------------- Mobile -----------*/
+
+@media (max-width: 375px) {
+    .flex-container {
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: auto;
+    }
+
+    .resultContainer {
+        border-radius: 0 0 1em 1em;
+        width: 100%;
+        position: relative;
+    }
+
+    .summaryContainer {
+        width: auto;
+    }
 }
