@@ -17,8 +17,8 @@ Little project to practice HTML, CSS and responsive.
 
 ### Screenshot
 
-(images\screenshot-mobile.png)
-(images\screenshot-desktop.png)
+images\screenshot-mobile.png
+images\screenshot-desktop.png
 
 ### Links
 
